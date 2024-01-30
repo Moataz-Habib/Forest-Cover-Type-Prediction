@@ -2,16 +2,17 @@
 
 ## Problem Overview
 
+The problem associated with this dataset is to predict the forest cover type based on the given features. It is a multi-class classification problem where the goal is to classify each instance into one of the seven forest cover types.
+
 ![Problem Overview](images/Picture1.png)
 
-The problem associated with this dataset is to predict the forest cover type based on the given features. It is a multi-class classification problem where the goal is to classify each instance into one of the seven forest cover types.
 
 ## Dataset Overview
 
 The dataset used for the Forest Cover Type Prediction study is sourced from the Roosevelt National Forest in northern Colorado. The data encapsulates features from the wilderness areas within this forest, with each observation representing a 30m x 30m patch of land. The primary goal is to predict the forest cover type, which is an integer classification representing one of seven possible forest cover types.
 
 Target Variable: Forest Cover Types:
-
+```
 1 - Spruce/Fir
 2 - Lodgepole Pine
 3 - Ponderosa Pine
@@ -19,9 +20,9 @@ Target Variable: Forest Cover Types:
 5 - Aspen
 6 - Douglas-fir
 7 – Krummholz
-
+```
 Features:
-
+```
 • Elevation : Elevation in meters
 • Aspect : Aspect in degrees azimuth
 • Slope : Slope in degrees
@@ -35,7 +36,7 @@ Features:
 • Wilderness_Area (4 binary columns, 0 = absence or 1 = presence) : Wilderness area designation
 • Soil_Type (40 binary columns, 0 = absence or 1 = presence) : Soil Type designation
 • Cover_Type (7 types, integers 1 to 7) : Forest Cover Type designation
-
+```
 
 ## Project Flowchart
 
