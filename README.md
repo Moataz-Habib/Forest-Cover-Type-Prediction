@@ -105,13 +105,13 @@ To establish baseline performance, several machine learning methods were applied
 
 ## Baseline Model Accuracies
 
-| Model                     | Accuracy |
-|---------------------------|:--------:|
-| **KNN**                   | 0.738361 |
-| **Logistic Regression**   | 0.474098 |
-| **SVM**                   | 0.561311 |
-| **Decision Tree**         | 0.758033 |
-| **Naive Bayes**           | 0.601311 |
+| Model                                                     | Accuracy |
+|-----------------------------------------------------------|:--------:|
+| **KNN**                                                   | 0.738361 |
+| **Logistic Regression**                                   | 0.474098 |
+| **SVM**                                                   | 0.561311 |
+| **Decision Tree**                                         | 0.758033 |
+| **Naive Bayes**                                           | 0.601311 |
 
 ## Confusion Matrix and Bar Chart of Accuracies
 <table>
