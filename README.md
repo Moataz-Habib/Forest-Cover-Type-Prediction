@@ -73,7 +73,7 @@ The EDA section visually explores the dataset to understand the distribution, co
 </tr>
 </table>
 
-## Categorical and Numerical Feature Analysis
+### Categorical and Numerical Feature Analysis
 
 <table>
 <tr>
@@ -86,7 +86,7 @@ The EDA section visually explores the dataset to understand the distribution, co
 </tr>
 </table>
 
-## Skewness Analysis
+### Skewness Analysis
 
 <table>
 <tr>
@@ -103,7 +103,7 @@ The EDA section visually explores the dataset to understand the distribution, co
 
 To establish baseline performance, several machine learning methods were applied to the dataset. The accuracy for each model was calculated, and the best two models were identified as Decision Tree and KNN based on their performance.
 
-# Baseline Performance Evaluation
+### Baseline Performance Evaluation
 
 The analysis commenced with the evaluation of multiple machine learning classifiers to determine a baseline performance. The accuracy of each model was measured after applying the following classifiers to the dataset:
 
@@ -115,8 +115,6 @@ The analysis commenced with the evaluation of multiple machine learning classifi
 
 Each classifier's performance was quantified and illustrated through a bar chart. Based on the obtained results, the Decision Tree and KNN models emerged as the top performers in terms of baseline accuracy.
 
-![Baseline Performance Results](images/Picture11.png)
-
 <table>
 <tr>
 <td>
@@ -125,10 +123,17 @@ Each classifier's performance was quantified and illustrated through a bar chart
 </tr>
 </table>
 
-## Confusion Matrix and Bar Chart of Accuracies
+### Confusion Matrices and Accuracy Bar Chart
+
+The confusion matrices provide insight into the true versus predicted labels, highlighting the performance of each classifier. The bar chart aggregates these results, showcasing the overall accuracy of each model, which informs the selection of the best-performing classifiers.
+
 <table>
 <tr>
-<td><img src="images/Picture9.png" alt="Confusion Matrix" width="600"/></td>
-<td><img src="images/Picture10.png" alt="Bar Chart of Accuracies" width="600"/></td>
+  <th>Confusion Matrix</th>
+  <th>Accuracy Bar Chart</th>
+</tr>
+<tr>
+  <td><img src="images/Picture9.png" alt="Confusion Matrix" width="600"/></td>
+  <td><img src="images/Picture10.png" alt="Bar Chart of Accuracies" width="600"/></td>
 </tr>
 </table>
