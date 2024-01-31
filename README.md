@@ -3,9 +3,9 @@
 ## Problem Overview
 
 The problem associated with this dataset is to predict the forest cover type based on the given features. It is a multi-class classification problem where the goal is to classify each instance into one of the seven forest cover types.
-
+```
 ![Problem Overview](images/Picture1.png)
-
+```
 
 ## Dataset Overview
 
