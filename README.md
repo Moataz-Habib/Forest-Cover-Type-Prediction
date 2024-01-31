@@ -49,41 +49,43 @@ The methodology of the Forest Cover Type Prediction project encapsulates a serie
 The EDA section visually explores the dataset to understand the distribution, correlations, and characteristics of the features. Below are visualizations that depict these aspects:
 
 ### Distribution and Correlation
+
 <table>
+<tr>
+  <th>Distribution of Cover Type</th>
+  <th>Correlation Heatmap</th>
+</tr>
 <tr>
   <td><img src="images/Picture3.png" alt="Distribution of Cover Type" width="600"/></td>
   <td><img src="images/Picture4.png" alt="Correlation Heatmap" width="600"/></td>
 </tr>
-<tr>
-  <td align="center">Distribution of Cover Type</td>
-  <td align="center">Correlation Heatmap</td>
-</tr>
 </table>
 
-### Categorical and Numerical Feature Analysis
+## Categorical and Numerical Feature Analysis
+
 <table>
+<tr>
+  <th>Categorical Feature Analysis</th>
+  <th>Numerical Feature Analysis</th>
+</tr>
 <tr>
   <td><img src="images/Picture5.png" alt="Categorical Feature Analysis" width="600"/></td>
   <td><img src="images/Picture6.png" alt="Numerical Feature Analysis" width="600"/></td>
 </tr>
-<tr>
-  <td align="center">Categorical Feature Analysis</td>
-  <td align="center">Numerical Feature Analysis</td>
-</tr>
 </table>
 
-### Skewness Analysis
+## Skewness Analysis
+
 <table>
+<tr>
+  <th>Skewness of Numerical Features</th>
+  <th>Histograms for Skewness Analysis</th>
+</tr>
 <tr>
   <td><img src="images/Picture7.png" alt="Skewness Analysis" width="600"/></td>
   <td><img src="images/Picture8.png" alt="Histograms for Skewness Analysis" width="600"/></td>
 </tr>
-<tr>
-  <td align="center">Skewness of Numerical Features</td>
-  <td align="center">Histograms for Skewness Analysis</td>
-</tr>
 </table>
-
 
 
 
