@@ -7,7 +7,7 @@ The problem associated with this dataset is to predict the forest cover type bas
 <table>
 <tr>
 <td>
-<img src="images/Picture1.png" alt="Problem Overview" width="600"/>
+<img src="images/Picture1.png" alt="Problem Overview" width="1500"/>
 </td>
 </tr>
 </table>
