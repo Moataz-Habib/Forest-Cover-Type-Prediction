@@ -51,8 +51,8 @@ The EDA section visually explores the dataset to understand the distribution, co
 ### Distribution and Correlation
 <table>
 <tr>
-  <td><img src="images/distribution_of_cover_type.png" alt="Distribution of Cover Type" width="600"/></td>
-  <td><img src="images/correlation_heatmap.png" alt="Correlation Heatmap" width="600"/></td>
+  <td><img src="images/Picture3.png" alt="Distribution of Cover Type" width="600"/></td>
+  <td><img src="images/Picture4.png" alt="Correlation Heatmap" width="600"/></td>
 </tr>
 <tr>
   <td align="center">Distribution of Cover Type</td>
@@ -63,8 +63,8 @@ The EDA section visually explores the dataset to understand the distribution, co
 ### Categorical and Numerical Feature Analysis
 <table>
 <tr>
-  <td><img src="images/categorical_feature_analysis.png" alt="Categorical Feature Analysis" width="600"/></td>
-  <td><img src="images/numerical_feature_analysis.png" alt="Numerical Feature Analysis" width="600"/></td>
+  <td><img src="images/Picture5.png" alt="Categorical Feature Analysis" width="600"/></td>
+  <td><img src="images/Picture6.png" alt="Numerical Feature Analysis" width="600"/></td>
 </tr>
 <tr>
   <td align="center">Categorical Feature Analysis</td>
@@ -75,14 +75,15 @@ The EDA section visually explores the dataset to understand the distribution, co
 ### Skewness Analysis
 <table>
 <tr>
-  <td><img src="images/skewness_analysis.png" alt="Skewness Analysis" width="600"/></td>
-  <td><img src="images/histograms_skewness_analysis.png" alt="Histograms for Skewness Analysis" width="600"/></td>
+  <td><img src="images/Picture7.png" alt="Skewness Analysis" width="600"/></td>
+  <td><img src="images/Picture8.png" alt="Histograms for Skewness Analysis" width="600"/></td>
 </tr>
 <tr>
   <td align="center">Skewness of Numerical Features</td>
   <td align="center">Histograms for Skewness Analysis</td>
 </tr>
 </table>
+
 
 
 
