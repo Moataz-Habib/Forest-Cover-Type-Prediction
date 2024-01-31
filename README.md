@@ -48,7 +48,13 @@ Features:
 
 The methodology of the Forest Cover Type Prediction project encapsulates a series of steps executed using machine learning techniques. Initially, the project establishes baseline performance by exploring diverse ML models. It then seeks to enhance accuracy through meticulous feature selection and dimensionality reduction techniques. Progressing further, the project incorporates advanced ensemble strategies and integrates PKI to refine the forest cover type predictions, leading to a robust set of models. Finally, the models are evaluated and the best-performing one is selected based on its accuracy and predictive capabilities.
 
-![Project Flowchart](images/Picture2.png)
+<table>
+<tr>
+<td>
+<img src="images/Picture2.png" alt="Project Flowchart" width="1500"/>
+</td>
+</tr>
+</table>
 
 # Exploratory Data Analysis (EDA)
 
