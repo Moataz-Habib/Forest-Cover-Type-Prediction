@@ -104,14 +104,13 @@ The EDA section visually explores the dataset to understand the distribution, co
 To establish baseline performance, several machine learning methods were applied to the dataset. The accuracy for each model was calculated, and the best two models were identified as Decision Tree and KNN based on their performance.
 
 ## Baseline Model Accuracies
-
 | Model                 | Accuracy |
-|-----------------------|----------|
-| KNN                   | 0.738361 |
-| Logistic Regression   | 0.474098 |
-| SVM                   | 0.561311 |
-| Decision Tree         | 0.758033 |
-| Naive Bayes           | 0.601311 |
+|-----------------------|:--------:|
+| **KNN**               | 0.738361 |
+| **Logistic Regression**   | 0.474098 |
+| **SVM**               | 0.561311 |
+| **Decision Tree**     | 0.758033 |
+| **Naive Bayes**       | 0.601311 |
 
 ## Confusion Matrix and Bar Chart of Accuracies
 <table>
