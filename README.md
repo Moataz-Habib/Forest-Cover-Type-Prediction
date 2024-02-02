@@ -305,8 +305,3 @@ The steps are visually represented below:
   </tr>
 </table>
 
-- After adding more models, Stacking Ensemble with the selected features from the second improvement became the best-performing approach.
-- The PKI strategy did not significantly improve the accuracy of the models compared to the previous improvements.
-- Fine-tuning the models did not result in a substantial increase in accuracy compared to the previous improvements.
-
-Overall, combining feature selection (Filter Method) and Stacking Ensemble has provided the best results. Fine-tuning the models and using PKI did not lead to significant improvements, suggesting that the feature selection and ensemble approaches were effective for this task.
