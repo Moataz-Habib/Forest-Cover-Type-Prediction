@@ -294,9 +294,9 @@ The steps are visually represented below:
 
 <table>
   <tr>
-    <td><img src="path_to_your_image_unsupervised.png" alt="Unsupervised Learning"></td>
-    <td><img src="path_to_your_image_supervised.png" alt="Supervised Learning"></td>
-    <td><img src="path_to_your_image_pki.png" alt="PKI Learning"></td>
+    <td><img src="images/Picture20.png" alt="Unsupervised Learning"></td>
+    <td><img src="images/Picture21.png" alt="Supervised Learning"></td>
+    <td><img src="images/Picture22.png" alt="PKI Learning"></td>
   </tr>
   <tr>
     <td>Unsupervised Learning through SOFM</td>
