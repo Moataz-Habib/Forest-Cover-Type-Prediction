@@ -271,6 +271,35 @@ The extensive parameter tuning indicated that increasing the complexity of the P
 Based on the analysis and experiments performed:
 
 - The best-performing models were KNN and Decision Tree (DT) without any feature selection. Using the Filter Method (mutual_info_classif) for feature selection, Decision Tree with the selected features achieved the best performance.
+
+
+# Appendix
+
+The Appendix outlines the combined approach of supervised and unsupervised learning techniques as applied in the project. The following steps were undertaken to achieve this integration:
+
+1. **Feature Transformation through SOFM**: The `X_train_selected` features were transformed using a Self-Organizing Feature Map (SOFM), which resulted in the cluster labels `Y_cluster_train`.
+   
+2. **Stacking Ensemble Predictions**: Simultaneously, the Stacking Ensemble model processed the selected features to produce the predictions labeled as `y_out_train`.
+
+3. **Data Frame Consolidation**: A single dataframe, `y_pki_train`, was created by combining the `Y_cluster_train` cluster labels from SOFM with the `y_out_train` predictions from the Stacking Ensemble.
+
+4. **PKI Model Training**: The `y_pki_train` dataframe was employed along with the original target labels `y_train` to train the Predictive K-means Integration (PKI) model. This same process was applied to both the test and validation data sets.
+
+The steps are visually represented below:
+
+<table>
+  <tr>
+    <td><img src="path_to_your_image_unsupervised.png" alt="Unsupervised Learning"></td>
+    <td><img src="path_to_your_image_supervised.png" alt="Supervised Learning"></td>
+    <td><img src="path_to_your_image_pki.png" alt="PKI Learning"></td>
+  </tr>
+  <tr>
+    <td>Unsupervised Learning through SOFM</td>
+    <td>Stacking Ensemble Predictions</td>
+    <td>PKI Model Training</td>
+  </tr>
+</table>
+
 - After adding more models, Stacking Ensemble with the selected features from the second improvement became the best-performing approach.
 - The PKI strategy did not significantly improve the accuracy of the models compared to the previous improvements.
 - Fine-tuning the models did not result in a substantial increase in accuracy compared to the previous improvements.
