@@ -166,6 +166,28 @@ The following figures illustrate the performance of each feature selection metho
 </table>
 
 
+<table>
+<tr>
+  <th>Filter Method Comparison</th>
+</tr>
+<tr>
+  <td><img src="images/Picture12.png" alt="Filter Method Comparison" width="100%"/></td>
+</tr>
+<tr>
+  <th>Wrapper Method Comparison</th>
+</tr>
+<tr>
+  <td><img src="images/Picture13.png" alt="Wrapper Method Comparison" width="100%"/></td>
+</tr>
+<tr>
+  <th>PCA Comparison</th>
+</tr>
+<tr>
+  <td><img src="images/Picture14.png" alt="PCA Comparison" width="100%"/></td>
+</tr>
+</table>
+
+
 After evaluating the results, the filter method with the Decision Tree model was identified as the best performer, marking the first improvement in the project's analytic phase. This optimal feature subset and ML model will be utilized for the remaining parts of the project.
 
 
