@@ -159,9 +159,9 @@ The following figures illustrate the performance of each feature selection metho
   <th>PCA Methods</th>
 </tr>
 <tr>
-  <td><img src="images/Picture12.png" alt="Filter & Wrapper Methods - Decision Tree" width="600"/></td>
-  <td><img src="images/Picture13.png" alt="Filter & Wrapper Methods - KNN" width="600"/></td>
-  <td><img src="images/Picture14.png" alt="PCA Methods" width="600"/></td>
+  <td><img src="images/Picture12.png" alt="Filter & Wrapper Methods - Decision Tree" width="1500"/></td>
+  <td><img src="images/Picture13.png" alt="Filter & Wrapper Methods - KNN" width="1500"/></td>
+  <td><img src="images/Picture14.png" alt="PCA Methods" width="1500"/></td>
 </tr>
 </table>
 
