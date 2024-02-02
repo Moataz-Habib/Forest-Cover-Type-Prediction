@@ -176,6 +176,40 @@ The following figures illustrate the performance of each feature selection metho
 
 After evaluating the results, the **filter method with the Decision Tree model** was identified as the best performer, marking the first improvement in the project's analytic phase. This optimal feature subset and ML model will be utilized for the remaining parts of the project.
 
+# Adding More Models
 
+In the continuous effort to enhance the predictive models, three advanced techniques were applied using the best features determined from the Decision Tree with the filter method.
+
+## Model Performance Results
+
+To assess the improvements, the Random Forest, Stacking Ensemble, and Voting Ensemble techniques were utilized.The image below summarizes the accuracy obtained with each model:
+
+
+<table>
+<tr>
+<td>
+<img src="images/Picture15.png" alt="Model Results" width="1500"/>
+</td>
+</tr>
+</table>
+
+## Evaluation of Model Performance
+
+The performance of the newly applied techniques was meticulously compared to the first improvement through confusion matrices, which illustrate the true versus predicted labels, and an accuracy bar chart that consolidates the results.
+
+### Confusion Matrices and Accuracy Bar Chart
+
+<table>
+<tr>
+  <th>Confusion Matrix</th>
+  <th>Accuracy Bar Chart</th>
+</tr>
+<tr>
+  <td><img src="images/Picture16.png" alt="Confusion Matrix Comparison" width="600"/></td>
+  <td><img src="iimages/Picture17.png" alt="Accuracy Bar Chart Comparison" width="600"/></td>
+</tr>
+</table>
+
+The analysis revealed that the Stacking Ensemble model outperformed the initial improvement, indicating that the new results will be adopted as the second improvement for subsequent analyses.
 
 
