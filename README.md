@@ -240,3 +240,29 @@ The PKI strategy is actualized through a Deep Neural Network (DNN) model, charac
 The examination of the SOFM's configuration against model accuracy culminated in no significant gains over the previous second improvement. Consequently, the second improvement remains the benchmark as we move to the next stage of model refinement.
 
 
+# Applying Parameter Fine Tuning
+
+In an effort to enhance the performance of the PKI model, a rigorous parameter fine-tuning process was undertaken. This involved experimenting with different configurations of hidden layers and neurons within the model.
+
+## Parameter Fine-Tuning Exploration
+
+The fine-tuning process explored various combinations of hidden layers and neurons. Configurations with one, two, three, and five hidden layers were assessed, with each layer containing different quantities of neurons ranging from 10 to 50.
+
+## Performance Analysis
+
+Each configuration was evaluated for its accuracy, and the results were meticulously recorded. The aim was to discover a configuration that would surpass the benchmark set by the second improvement in accuracy.
+
+<table>
+<tr>
+<td>
+<img src="images/Picture19.png" alt="PKI Model Performance with Different Configurations" width="1500"/>
+</td>
+</tr>
+</table>
+
+The depicted plot visualizes the performance of each tuning, correlating the number of hidden layers and neurons to the resulting accuracy. Despite the extensive search, no configuration yielded an improvement over the second improvement.
+
+## Insights from Model Optimization Efforts
+
+The extensive parameter tuning indicated that increasing the complexity of the PKI model's architecture did not translate into higher accuracy. As a result, the configurations explored in this phase did not achieve a new breakthrough in performance. The second improvement remains the optimal solution based on current evaluations.
+
