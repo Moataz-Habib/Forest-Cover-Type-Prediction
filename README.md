@@ -266,3 +266,13 @@ The depicted plot visualizes the performance of each tuning, correlating the num
 
 The extensive parameter tuning indicated that increasing the complexity of the PKI model's architecture did not translate into higher accuracy. As a result, the configurations explored in this phase did not achieve a new breakthrough in performance. The second improvement remains the optimal solution based on current evaluations.
 
+## Conclusions
+
+Based on the analysis and experiments performed:
+
+- The best-performing models were KNN and Decision Tree (DT) without any feature selection. Using the Filter Method (mutual_info_classif) for feature selection, Decision Tree with the selected features achieved the best performance.
+- After adding more models, Stacking Ensemble with the selected features from the second improvement became the best-performing approach.
+- The PKI strategy did not significantly improve the accuracy of the models compared to the previous improvements.
+- Fine-tuning the models did not result in a substantial increase in accuracy compared to the previous improvements.
+
+Overall, combining feature selection (Filter Method) and Stacking Ensemble has provided the best results. Fine-tuning the models and using PKI did not lead to significant improvements, suggesting that the feature selection and ensemble approaches were effective for this task.
