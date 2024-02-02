@@ -213,3 +213,30 @@ The performance of the newly applied techniques was meticulously compared to the
 The analysis revealed that the **Stacking Ensemble model** outperformed the initial improvement, indicating that the new results will be adopted as the second improvement for subsequent analyses.
 
 
+# Supervised & Unsupervised Combination via PKI
+
+This phase of the project saw the integration of supervised and unsupervised learning models to enhance predictive performance further. The Stacking Ensemble, incorporating Decision Tree, Random Forest, Bagging, and KNN classifiers, served as the supervised learning component. A Self-Organizing Feature Map (SOFM) was implemented for the unsupervised learning segment.
+
+## SOFM Structure vs. Accuracy
+
+An iterative exploration of SOFM grid sizes ranging from 6x6 to 12x12 was conducted. The goal was to determine if the unsupervised SOFM could boost performance when combined with the supervised Stacking Ensemble model using the PKI strategy.
+
+<table>
+<tr>
+<td>
+<img src="images/Picture18.png" alt="SOFM Structure vs. Accuracy" width="1500"/>
+</td>
+</tr>
+</table>
+
+The structure of the SOFM was assessed for its impact on model accuracy. The best-performing supervised model's accuracy from the prior stage was used as a comparative benchmark, depicted by the red dotted line in the figure.
+
+## The PKI Deep Neural Network Model
+
+The PKI strategy is actualized through a Deep Neural Network (DNN) model, characterized by four hidden layers, each consisting of 30 neurons. Optimized using the Adam optimizer with a learning rate set at 0.001, and employing the tanh activation function, this DNN model is central to the PKI approach.
+
+## Observations and Interpretation
+
+The examination of the SOFM's configuration against model accuracy culminated in no significant gains over the previous second improvement. Consequently, the second improvement remains the benchmark as we move to the next stage of model refinement.
+
+
