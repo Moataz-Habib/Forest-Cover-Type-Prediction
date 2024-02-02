@@ -206,7 +206,7 @@ The performance of the newly applied techniques was meticulously compared to the
 </tr>
 <tr>
   <td><img src="images/Picture16.png" alt="Confusion Matrix Comparison" width="600"/></td>
-  <td><img src="iimages/Picture17.png" alt="Accuracy Bar Chart Comparison" width="600"/></td>
+  <td><img src="images/Picture17.png" alt="Accuracy Bar Chart Comparison" width="600"/></td>
 </tr>
 </table>
 
