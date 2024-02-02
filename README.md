@@ -210,6 +210,6 @@ The performance of the newly applied techniques was meticulously compared to the
 </tr>
 </table>
 
-The analysis revealed that the Stacking Ensemble model outperformed the initial improvement, indicating that the new results will be adopted as the second improvement for subsequent analyses.
+The analysis revealed that the **Stacking Ensemble model** outperformed the initial improvement, indicating that the new results will be adopted as the second improvement for subsequent analyses.
 
 
