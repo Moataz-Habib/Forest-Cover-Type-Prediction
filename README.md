@@ -174,7 +174,7 @@ The following figures illustrate the performance of each feature selection metho
 </table>
 
 
-After evaluating the results, the filter method with the Decision Tree model was identified as the best performer, marking the first improvement in the project's analytic phase. This optimal feature subset and ML model will be utilized for the remaining parts of the project.
+After evaluating the results, the **filter method with the Decision Tree model** was identified as the best performer, marking the first improvement in the project's analytic phase. This optimal feature subset and ML model will be utilized for the remaining parts of the project.
 
 
 
