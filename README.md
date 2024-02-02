@@ -292,15 +292,18 @@ The Appendix outlines the combined approach of supervised and unsupervised learn
 
 The steps are visually represented below:
 
-### Unsupervised Learning through SOFM
-<img src="path_to_your_image_unsupervised.png" alt="Unsupervised Learning" width="600"/>
+<table>
+  <tr>
+    <th>Unsupervised Learning through SOFM</th>
+    <th>Supervised Learning: Stacking Ensemble Predictions</th>
+    <th>PKI Model Training</th>
+  </tr>
+  <tr>
+    <td><img src="images/Picture19.png" alt="Unsupervised Learning" width="600"/></td>
+    <td><img src="images/Picture19.png" alt="Supervised Learning" width="600"/></td>
+    <td><img src="images/Picture19.png" alt="PKI Learning" width="600"/></td>
+  </tr>
+</table>
 
-### Supervised Learning: Stacking Ensemble Predictions
-<img src="path_to_your_image_supervised.png" alt="Supervised Learning" width="600"/>
-
-### PKI Model Training
-<img src="path_to_your_image_pki.png" alt="PKI Learning" width="600"/>
-
-This section documents the detailed steps of the machine learning process for the training, validation, and test datasets. Each image corresponds to a different phase of the process, showcasing the feature transformation, the ensemble predictions, and the final PKI model training.
 
 
