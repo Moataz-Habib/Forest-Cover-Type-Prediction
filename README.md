@@ -299,9 +299,9 @@ The steps are visually represented below:
     <th>PKI Model Training</th>
   </tr>
   <tr>
-    <td><img src="images/Picture19.png" alt="Unsupervised Learning" width="600"/></td>
-    <td><img src="images/Picture19.png" alt="Supervised Learning" width="600"/></td>
-    <td><img src="images/Picture19.png" alt="PKI Learning" width="600"/></td>
+    <td><img src="images/Picture20.png" alt="Unsupervised Learning" width="600"/></td>
+    <td><img src="images/Picture21.png" alt="Supervised Learning" width="600"/></td>
+    <td><img src="images/Picture22.png" alt="PKI Learning" width="600"/></td>
   </tr>
 </table>
 
