@@ -138,7 +138,7 @@ The confusion matrices provide insight into the true versus predicted labels, hi
 </tr>
 </table>
 
-# First Improvement Strategy: Comparing Dimensionality Reduction to Feature Selection
+## First Improvement Strategy: Comparing Dimensionality Reduction to Feature Selection
 
 Advancing predictive accuracy was a key objective, achieved through feature selection using filter-based and wrapper-based methods. These methods were applied to the two models that exhibited the best baseline performance.
 
@@ -150,7 +150,7 @@ Performance comparisons were made based on the number of features versus the acc
 
 The following figures illustrate the performance of each feature selection method against the baseline, clearly indicating improvements and helping to identify the best feature subset and ML model for the subsequent stages of the project.
 
-## Feature Selection Methods Visualizations
+### Feature Selection Methods Visualizations
 
 <table>
 <tr>
@@ -176,11 +176,11 @@ The following figures illustrate the performance of each feature selection metho
 
 After evaluating the results, the **filter method with the Decision Tree model** was identified as the best performer, marking the first improvement in the project's analytic phase. This optimal feature subset and ML model will be utilized for the remaining parts of the project.
 
-# Adding More Models
+## Adding More Models
 
 In the continuous effort to enhance the predictive models, three advanced techniques were applied using the best features determined from the Decision Tree with the filter method.
 
-## Model Performance Results
+### Model Performance Results
 
 To assess the improvements, the Random Forest, Stacking Ensemble, and Voting Ensemble techniques were utilized.The image below summarizes the accuracy obtained with each model:
 
@@ -193,7 +193,7 @@ To assess the improvements, the Random Forest, Stacking Ensemble, and Voting Ens
 </tr>
 </table>
 
-## Evaluation of Model Performance
+### Evaluation of Model Performance
 
 The performance of the newly applied techniques was meticulously compared to the first improvement through confusion matrices, which illustrate the true versus predicted labels, and an accuracy bar chart that consolidates the results.
 
@@ -213,11 +213,11 @@ The performance of the newly applied techniques was meticulously compared to the
 The analysis revealed that the **Stacking Ensemble model** outperformed the initial improvement, indicating that the new results will be adopted as the second improvement for subsequent analyses.
 
 
-# Supervised & Unsupervised Combination via PKI
+## Supervised & Unsupervised Combination via PKI
 
 This phase of the project saw the integration of supervised and unsupervised learning models to enhance predictive performance further. The Stacking Ensemble, incorporating Decision Tree, Random Forest, Bagging, and KNN classifiers, served as the supervised learning component. A Self-Organizing Feature Map (SOFM) was implemented for the unsupervised learning segment.
 
-## SOFM Structure vs. Accuracy
+### SOFM Structure vs. Accuracy
 
 An iterative exploration of SOFM grid sizes ranging from 6x6 to 12x12 was conducted. The goal was to determine if the unsupervised SOFM could boost performance when combined with the supervised Stacking Ensemble model using the PKI strategy.
 
@@ -231,24 +231,24 @@ An iterative exploration of SOFM grid sizes ranging from 6x6 to 12x12 was conduc
 
 The structure of the SOFM was assessed for its impact on model accuracy. The best-performing supervised model's accuracy from the prior stage was used as a comparative benchmark, depicted by the red dotted line in the figure.
 
-## The PKI Deep Neural Network Model
+### The PKI Deep Neural Network Model
 
 The PKI strategy is actualized through a Deep Neural Network (DNN) model, characterized by four hidden layers, each consisting of 30 neurons. Optimized using the Adam optimizer with a learning rate set at 0.001, and employing the tanh activation function, this DNN model is central to the PKI approach.
 
-## Observations and Interpretation
+### Observations and Interpretation
 
 The examination of the SOFM's configuration against model accuracy culminated in no significant gains over the previous second improvement. Consequently, the second improvement remains the benchmark as we move to the next stage of model refinement.
 
 
-# Applying Parameter Fine Tuning
+## Applying Parameter Fine Tuning
 
 In an effort to enhance the performance of the PKI model, a rigorous parameter fine-tuning process was undertaken. This involved experimenting with different configurations of hidden layers and neurons within the model.
 
-## Parameter Fine-Tuning Exploration
+### Parameter Fine-Tuning Exploration
 
 The fine-tuning process explored various combinations of hidden layers and neurons. Configurations with one, two, three, and five hidden layers were assessed, with each layer containing different quantities of neurons ranging from 10 to 50.
 
-## Performance Analysis
+### Performance Analysis
 
 Each configuration was evaluated for its accuracy, and the results were meticulously recorded. The aim was to discover a configuration that would surpass the benchmark set by the second improvement in accuracy.
 
@@ -262,7 +262,7 @@ Each configuration was evaluated for its accuracy, and the results were meticulo
 
 The depicted plot visualizes the performance of each tuning, correlating the number of hidden layers and neurons to the resulting accuracy. Despite the extensive search, no configuration yielded an improvement over the second improvement.
 
-## Insights from Model Optimization Efforts
+### Insights from Model Optimization Efforts
 
 The extensive parameter tuning indicated that increasing the complexity of the PKI model's architecture did not translate into higher accuracy. As a result, the configurations explored in this phase did not achieve a new breakthrough in performance. The second improvement remains the optimal solution based on current evaluations.
 
@@ -278,7 +278,7 @@ Based on the analysis and experiments performed:
 Overall, combining feature selection (Filter Method) and Stacking Ensemble has provided the best results. Fine-tuning the models and using PKI did not lead to significant improvements, suggesting that the initial feature selection and ensemble approaches were effective for this task.
 
 
-# Appendix
+## Appendix
 
 The Appendix outlines the combined approach of supervised and unsupervised learning techniques as applied in the project. The following steps were undertaken to achieve this integration:
 
