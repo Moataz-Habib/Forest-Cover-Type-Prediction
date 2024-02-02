@@ -137,3 +137,37 @@ The confusion matrices provide insight into the true versus predicted labels, hi
   <td><img src="images/Picture10.png" alt="Bar Chart of Accuracies" width="600"/></td>
 </tr>
 </table>
+
+# First Improvement Strategy: Comparing Dimensionality Reduction to Feature Selection
+
+Advancing predictive accuracy was a key objective, achieved through feature selection using filter-based and wrapper-based methods. These methods were applied to the two models that exhibited the best baseline performance.
+
+- **Filter Method**: Utilizes statistical tests to select relevant features. This method operates independently of machine learning algorithms, employing mutual information criteria for feature relevance.
+- **Wrapper Method**: Selects feature sets by constructing multiple models and assessing their performance, adding or removing attributes iteratively to identify the most effective combination.
+- **Principal Component Analysis (PCA)**: Reduces dimensionality through orthogonal transformation, targeting directions that maximize variance.
+
+Performance comparisons were made based on the number of features versus the accuracy. Additionally, the baseline performance of each ML model was plotted as a constant dotted line with a different color for a direct comparison.
+
+The following figures illustrate the performance of each feature selection method against the baseline, clearly indicating improvements and helping to identify the best feature subset and ML model for the subsequent stages of the project.
+
+## Feature Selection Methods Visualizations
+
+<table>
+<tr>
+  <th>Filter & Wrapper Methods - Decision Tree</th>
+  <th>Filter & Wrapper Methods - KNN</th>
+  <th>PCA Methods</th>
+</tr>
+<tr>
+  <td><img src="images/Picture12.png" alt="Filter & Wrapper Methods - Decision Tree" width="600"/></td>
+  <td><img src="images/Picture13.png" alt="Filter & Wrapper Methods - KNN" width="600"/></td>
+  <td><img src="images/Picture14.png" alt="PCA Methods" width="600"/></td>
+</tr>
+</table>
+
+
+After evaluating the results, the filter method with the Decision Tree model was identified as the best performer, marking the first improvement in the project's analytic phase. This optimal feature subset and ML model will be utilized for the remaining parts of the project.
+
+
+
+
